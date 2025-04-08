@@ -19,7 +19,7 @@
 
 function exercicio01() {
 
-debugger;
+    debugger;
 
     let numero = prompt("Digite sua idade:");
 
@@ -42,24 +42,24 @@ debugger;
 
 function exercicio02() {
 
-debugger;
+    debugger;
 
     let numero = prompt("Digite um número")
 
-    if(numero >0){
-        alert ("Número positivo")
+    if (numero > 0) {
+        alert("Número positivo")
     }
-        else{
-            if(numero <0){
-                alert ("Número negativo");
-            }
+    else {
+        if (numero < 0) {
+            alert("Número negativo");
         }
+    }
 }
 
 
 function exercicio03() {
 
-debugger;
+    debugger;
 
     let numero = prompt("Digite sua nota:");
 
@@ -78,7 +78,7 @@ debugger;
 
 function exercicio04() {
 
-debugger;
+    debugger;
 
     let numero = prompt("Digite um número")
 
@@ -86,48 +86,48 @@ debugger;
 
         console.log("Número é positivo")
 
-        else {
+    else {
 
-            if (numero < 0) {
+        if (numero < 0) {
 
-                console.log("Negativo")
-                    }    else {
+            console.log("Negativo")
+        } else {
 
-                console.log("É zero.")
+            console.log("É zero.")
 
-}
-            }
         }
-         
+    }
+}
 
-function exercicio05 () {
 
-debugger;
+function exercicio05() {
 
-let numero = prompt ("Digite sua idade")
+    debugger;
 
-if (numero >= 0){
-    alert ("Você é uma criança");
+    let numero = prompt("Digite sua idade")
+
+    if (numero >= 0) {
+        alert("Você é uma criança");
     }
 
-else if (numero >= 13){
-    alert ("Você é um adoslecente");
+    else if (numero >= 13) {
+        alert("Você é um adoslecente");
     }
 
-else if (numero >= 18){
-    alert ("Você é um adulto");
+    else if (numero >= 18) {
+        alert("Você é um adulto");
 
-}
-else{
+    }
+    else {
 
-alert ("Idade invalida")
+        alert("Idade invalida")
+    }
 }
-}
- 
+
 
 function exercicio06() {
 
-debugger;
+    debugger;
 
     let numero = prompt("Digite um número")
 
@@ -146,33 +146,33 @@ debugger;
 
 
 
-function intermediario01(){
-debugger;
- 
-let n1 = Number (prompt ("Digite um número"))
-let n2 = Number(prompt(" Digite um número"))
+function intermediario01() {
+    debugger;
 
-let operacao = prompt ("Digite uma operação")
+    let n1 = Number(prompt("Digite um número"))
+    let n2 = Number(prompt(" Digite um número"))
 
-let resultado
+    let operacao = prompt("Digite uma operação")
 
-switch (operacao){
-    case "+":
-        resultado = n1 + n2;
-        break;
-    case "-":
-        resultado = n1 - n2;
-        break;
-    case "*":
-        resultado = n1 * n2;
-        break;
-    case "/":
-        resultado = n1 / n2;
-        break;
+    let resultado
 
-}
+    switch (operacao) {
+        case "+":
+            resultado = n1 + n2;
+            break;
+        case "-":
+            resultado = n1 - n2;
+            break;
+        case "*":
+            resultado = n1 * n2;
+            break;
+        case "/":
+            resultado = n1 / n2;
+            break;
 
-alert( resultado)
+    }
+
+    alert(resultado)
 
 }
 intermediario01()

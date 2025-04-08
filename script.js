@@ -11,8 +11,8 @@ var cidade = "São Paulo"
 // console.log(idade);
 // console.log(cidade);
 
-console.log("Meu nome é "  + nome);         /*concatenação*/
-console.log("Tenho " + idade + " anos de idade" );
+console.log("Meu nome é " + nome);         /*concatenação*/
+console.log("Tenho " + idade + " anos de idade");
 console.log("Moro em " + cidade);
 
 // console.log(`Meu nome é: ${nome}`)          /*interpolação*/
@@ -20,10 +20,10 @@ console.log("Moro em " + cidade);
 // console.log(`Minha cidade é: ${cidade}`)
 
 
-console.log ( typeof idade);
+console.log(typeof idade);
 
 let n1 = 20
 let n2 = 10
-let divisão = n1/n2
+let divisão = n1 / n2
 
-console.log( divisão = n1 / n2)
+console.log(divisão = n1 / n2)
