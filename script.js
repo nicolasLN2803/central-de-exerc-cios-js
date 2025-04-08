@@ -24,6 +24,6 @@ console.log ( typeof idade);
 
 let n1 = 20
 let n2 = 10
-let divisão = 20/10
+let divisão = n1/n2
 
 console.log( divisão = n1 / n2)

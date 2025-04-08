@@ -149,16 +149,33 @@ debugger;
 function intermediario01(){
 debugger;
  
-let numero1 = prompt ("Digite um número")
-let numero2 = prompt (" Digite um número")
+let n1 = Number (prompt ("Digite um número"))
+let n2 = Number(prompt(" Digite um número"))
 
-let resultado =  numero1 + numero2
+let operacao = prompt ("Digite uma operação")
 
-console.log (resultado)
+let resultado
 
+switch (operacao){
+    case "+":
+        resultado = n1 + n2;
+        break;
+    case "-":
+        resultado = n1 - n2;
+        break;
+    case "*":
+        resultado = n1 * n2;
+        break;
+    case "/":
+        resultado = n1 / n2;
+        break;
 
 }
-intermediario01
+
+alert( resultado)
+
+}
+intermediario01()
 
 
 
