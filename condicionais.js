@@ -175,7 +175,24 @@ function intermediario01() {
     alert(resultado)
 
 }
-intermediario01()
+
+
+function intermediario02 () {
+
+let n1 = prompt("Digite um número")
+let n2 = prompt("Digite um número")
+let n3 = prompt("Digite um número")
+
+let maior 
+
+if(n1 >= n2 && n1 >=n3) {maior = n1}
+else if(n2 >= n1 && n2 >=n3) {maior = n2}
+else {maior = n3}
+
+alert ("número maior é " + maior)
+
+}
+intermediario02() 
 
 
 
