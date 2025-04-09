@@ -1,45 +1,114 @@
-// function exampleFor() {
+// // function exampleFor() {
 
-//     // // FOR 
-//     // 1- passo: declarar o contador.
-//     // 2- passo : condição (enquanto).
-//     // 3- passp : incremento.
+// //     // // FOR 
+// //     // 1- passo: declarar o contador.
+// //     // 2- passo : condição (enquanto).
+// //     // 3- passp : incremento.
 
-// //     for (let contador = 1; contador <= 5; contador++) {
+// // //     for (let contador = 1; contador <= 5; contador++) {
 
-// //         alert(contador);
+// // //         alert(contador);
 
-// //     }
-// // }
+// // //     }
+// // // }
 
 
 
-function exampleWhile() {
+// function exampleWhile() {
+
+//     debugger;
+//     let contador = 1;
+
+//     while (contador <= 5) {
+
+//         alert(contador);
+//         contador ++;
+//     }
+
+// }
+
+
+
+// function exampleDoWhile () {
+
+// let contador = 1;
+
+// do {
+
+// alert(contador)
+// contador++;
+
+// } while (contador <= 5);
+
+// }
+
+// exampleDoWhile();
+
+
+function exercicio01for() {
 
     debugger;
-    let contador = 1;
+    for (let contador = 1; contador <= 10; contador++) {
 
-    while (contador <= 5) {
+        console.log(contador);
 
-        alert(contador);
-        contador ++;
     }
 
 }
 
 
+function exercicio02for() {
 
-function exampleDoWhile () {
+    debugger;
+    let num = prompt("digite um número");
 
-let contador = 1;
+    for (let contador = 1; contador <= 10; contador++) {
 
-do {
+        console.log(contador * num)
 
-alert(contador)
-contador++;
-
-} while (contador <= 5);
+    }
 
 }
 
-exampleDoWhile();
+function exercicio03for() {
+
+    debugger;
+
+    let N = prompt("digite um número")
+
+    {
+
+        let contador = 1;
+
+        while (contador <= N) {
+
+            console.log(contador);
+            contador++;
+        }
+
+    }
+
+}
+
+function intermediario01for() {
+
+    debugger;
+
+    let num = 1;
+
+    {
+        
+        let contador = 1;
+
+        while (contador <= N) if (num % 2 == 0) {
+
+
+
+            contador++;
+            console.log(contador);
+        }
+
+    }
+
+}i
+
