@@ -94,21 +94,41 @@ function intermediario01for() {
 
     debugger;
 
-    let num = 1;
+    for (let i = 2; i <= 50; i += 2) {
 
-    {
-        
-        let contador = 1;
-
-        while (contador <= N) if (num % 2 == 0) {
+        console.log(i)
+    }
 
 
+}
 
-            contador++;
-            console.log(contador);
+function intermediario02for() {
+
+    debugger;
+
+    let numero = Math.floor(Math.random() * (100 - 1) + 1)
+
+    let tentativa;
+
+    while (tentativa != numero) {
+
+        tentativa = prompt("Insira um número: ");
+
+        if (numero > tentativa) {
+
+            alert("Número é maior");
+
+        } else if (numero < tentativa) {
+
+            alert("Número é menor")
+
+        } else {
+
+            alert("Você acertou!!!")
         }
 
     }
 
-}i
+} 
 
+intermediario02for ()
