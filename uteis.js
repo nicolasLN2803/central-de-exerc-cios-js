@@ -7,4 +7,4 @@ let numerosfiltrados = numeros.filter (numero => numero > 2);
 console.log(numerosfiltrados);
 
 
-} exemplofilter ()  
+} 

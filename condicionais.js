@@ -17,7 +17,7 @@
 
 
 
-function exercicio01() {
+function exercicioCondicionais01() {
 
     debugger;
 
@@ -25,14 +25,16 @@ function exercicio01() {
 
     if (numero >= 18) {
 
-        console.log("maior de idade");
+        alert("Você é maior de idade");
 
     } else {
 
         if (numero < 18)
 
-            console.log("menor de idade");
+            alert(" Você é menor de idade");
     }
+
+    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
 
 }
 
@@ -40,24 +42,25 @@ function exercicio01() {
 
 
 
-function exercicio02() {
+function exercicioCondicionais02() {
 
     debugger;
 
     let numero = prompt("Digite um número")
 
     if (numero > 0) {
-        alert("Número positivo")
+        alert("O número é positivo")
     }
     else {
         if (numero < 0) {
-            alert("Número negativo");
+            alert("O número é negativo");
         }
     }
+    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
 }
 
 
-function exercicio03() {
+function exercicioCondicionais03() {
 
     debugger;
 
@@ -65,18 +68,18 @@ function exercicio03() {
 
     if (numero >= 60) {
 
-        console.log("Aprovado.")
+        alert("Você foi aprovado!!")
 
     } else
 
         if (numero < 60)
 
-            console.log("Reprovado.");
-
+            alert("Você foi reprovado.");
+    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
 }
 
 
-function exercicio04() {
+function exercicioCondicionais04() {
 
     debugger;
 
@@ -84,48 +87,47 @@ function exercicio04() {
 
     if (numero > 0)
 
-        console.log("Número é positivo")
+        alert("Número é positivo")
 
     else {
 
         if (numero < 0) {
 
-            console.log("Negativo")
+            alert("Negativo")
         } else {
 
-            console.log("É zero.")
+            alert("É zero.")
 
         }
     }
+    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
 }
 
 
-function exercicio05() {
+function exercicioCondicionais05() {
 
     debugger;
 
     let numero = prompt("Digite sua idade")
 
-    if (numero >= 0) {
+    if (numero <= 12) {
         alert("Você é uma criança");
     }
 
-    else if (numero >= 13) {
+
+    if (numero <= 17 && numero >= 13) {
+
         alert("Você é um adoslecente");
     }
 
-    else if (numero >= 18) {
+    if (numero >= 18) {
         alert("Você é um adulto");
-
     }
-    else {
-
-        alert("Idade invalida")
-    }
+    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
 }
 
 
-function exercicio06() {
+function exercicioCondicionais06() {
 
     debugger;
 
@@ -141,12 +143,13 @@ function exercicio06() {
         alert("O número é impar")
 
     }
+    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
 }
 
 
 
 
-function intermediario01() {
+function intermediarioCondicionais01() {
     debugger;
 
     let n1 = Number(prompt("Digite um número"))
@@ -174,25 +177,44 @@ function intermediario01() {
 
     alert(resultado)
 
+    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
+
+}
+
+
+function intermediarioCondicionais02() {
+
+    let n1 = prompt("Digite um número")
+    let n2 = prompt("Digite um número")
+    let n3 = prompt("Digite um número")
+
+    let maior
+
+    if (n1 >= n2 && n1 >= n3) { maior = n1 }
+    else if (n2 >= n1 && n2 >= n3) { maior = n2 }
+    else { maior = n3 }
+
+    alert("número maior é " + maior)
+
+    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
+
 }
 
 
-function intermediario02 () {
 
-let n1 = prompt("Digite um número")
-let n2 = prompt("Digite um número")
-let n3 = prompt("Digite um número")
 
-let maior 
 
-if(n1 >= n2 && n1 >=n3) {maior = n1}
-else if(n2 >= n1 && n2 >=n3) {maior = n2}
-else {maior = n3}
+function gerarLog(textoDoLog) {
 
-alert ("número maior é " + maior)
+    let container = document.querySelector(".logs-container");
+
+    let paragraph = document.createElement("p"); // <p></p>
+
+    paragraph.innerHTML = textoDoLog; // <p>texto</p>
+
+    container.appendChild(paragraph);
 
 }
-intermediario02() 
 
 
 
