@@ -100,7 +100,7 @@ function exercicioCondicionais04() {
 
         }
     }
-    gerarLog("Exercício de maioridade executado às: " + new Date().toLocaleDateString())
+    gerarLog("Exercício executado às: " + new Date().toLocaleDateString())
 }
 
 

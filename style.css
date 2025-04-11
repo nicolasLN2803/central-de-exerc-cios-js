@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+button {
+
+background-color: paleturquoise;
+color: black;
+border-radius: 10px;
+width: 20vw;
+height: 5vh;
+
+font-family: "Inter";
+
+}
+
+.cabecalho {
+
+    background-color: #2fcbf1;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+
+}
