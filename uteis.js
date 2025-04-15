@@ -109,12 +109,12 @@ console.log("As palavras exclamas ficam assim: " + palavrasExclamadas);
 
 } 
 
-function exemploMap02 () {
+function exerciciooMap02 () {
 
-let nomes =  ["ana", "Ariel", "Yan"]
+let nomes =  ["Ana é um ", "Ariel é um ", "Yan é um "];
 
 let nomesMaiusculos = nomes.map(nome => nome + "Colaborador")
 
 console.log("Os colaboradores são: " + nomesMaiusculos);
 
-}
+} exercicioMap02()

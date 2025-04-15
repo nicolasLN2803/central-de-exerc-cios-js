@@ -16,18 +16,23 @@ border-radius: 10px;
 border: none;
 width: 10vw;
 height: 5vh;
-margin-left: 180px;
+margin-left: 240px;
 margin-top: 10px;
 margin-bottom: 10px;
 font-family: "Inter";
-
+cursor: pointer;
+transition: all ease 0.5s;
+margin-top: 50px;
+margin-bottom: 50px;
 
 }
 
 button:hover {
 
-    height: 7vh;
-    width: 15vw;
+    /* height: 7vh;
+    width: 15vw; */
+
+    transform: scale(1.5);
 
 }
 
@@ -60,7 +65,7 @@ font-family: "Inter";
 margin-bottom: 10px;
 margin-top: 10px;
 font-size: 25px;
-
+margin-left: 20px;
 }
 
 
@@ -68,6 +73,7 @@ h2 {
 
 margin-top: 30px;
 margin-bottom: 30px;
+margin-left: 30px;
 
 font-size: 60px;
 font-family: "Inter";
@@ -88,6 +94,6 @@ p {
 color: #307351;
 font-family: "Inter";
 font-size: 20px;
-margin-left: 20px;
+margin-left: 30px;
 
 }
